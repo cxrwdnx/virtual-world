@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			background: #2fa1d6;
+		}
+		.datashow{
+			left: 50%;
+			top: 50%;
+			position: absolute;
+		}
+		.container {
+		}
+		.ripple {
+			position: fixed;
+			background: #ff5500;
+			animation: ripple 5s linear infinite;
+			transform: translate(-50%,-50%);
+			border-radius: 100%;
+		}
+		.p2{
+			animation-delay: 2.5s;
+		}
+		.border {
+			display: block;
+			border-radius: 100%;
+			transform: translate(-50%,-50%);
+			border: 4px solid rgba(255,80,0,0.8);
+			width: 100px;
+			height: 100px;
+			box-shadow: 0px 0px 15px 3px #ff5500 inset;
+		}
+		@-webkit-keyframes ripple {
+			from{
+				background: #ff5500;
+				width: 15px;
+				height: 15px;
+				opacity: 1;
+			}
+			to{
+				background: #ff5500;
+				width: 100px;
+				height: 100px;
+				opacity: 0;
+			}
+		}
+
+		.trapezoidal{
+		    position: fixed;
+			transform: translate(-7.5px,-60px);
+			z-index: 1	;
+			width: 5px;
+		    height: 0px;
+			border-top: 0px;
+			border-bottom: 40px solid #FFFFFF;
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			opacity: 0.95;
+		}
+	</style>
+</head>
+<body>
+	<div class="datashow">
+		<span class="trapezoidal"></span>
+		<div class="container">
+			<span class="ripple p1"></span>
+			<span class="ripple p2"></span>
+			<span class="border"></span>
+		</div>
+	</div>
+</body>
+</html>

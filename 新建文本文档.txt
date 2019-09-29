@@ -1,0 +1,31 @@
+为什么需要代理模式？
+讲讲静态代理模式的优点及其瓶颈？
+对Java 接口代理模式的实现原理的理解？
+BeanFactory 和 FactoryBean 有什么区别，BeanFactory 和 ApplicationContext 又有什么不同？
+Spring 在 Bean 创建过程中是如何解决循环依赖的？
+谈谈Spring Bean 创建过程中的设计模式？
+BeanFactory和ApplicationContext有什么区别
+解释Spring Bean的生命周期
+Spring Bean的作用域
+Spring框架中的单例Beans是线程安全的吗
+构造方法注入和设值注入有什么区别
+Spring框架中有哪些不同类型的事件
+
+
+需要理解和体会的网址
+https://www.cnblogs.com/canger/p/9850727.html
+
+数据库相关技术
+http://c.biancheng.net/view/2440.html
+必看的网站
+http://c.biancheng.net/
+mysql变量
+https://www.cnblogs.com/EasonJim/p/7966918.html
+Vue 新增的$attrs与$listeners的详解
+https://my.oschina.net/u/2612473/blog/1817903
+
+require.context
+https://www.jianshu.com/p/c894ea00dfec
+https://juejin.im/post/5ab8bcdb6fb9a028b77acdbd
+如何使用svg	
+https://segmentfault.com/a/1190000015367490
