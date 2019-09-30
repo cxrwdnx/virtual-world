@@ -1,0 +1,28 @@
+
+https://docs.oracle.com/javase/8/docs/    jdk介绍
+
+
+其他人的博客
+https://www.cnblogs.com/suRimn/p/10564409.html
+
+根级相应问题
+https://blog.csdn.net/sinianliushui/article/details/81774327
+
+高达一号
+https://blog.csdn.net/u010003835/article/details/98660040
+
+
+
+775066221@qq.com
+http://yisibl.github.io/cubic-bezier/#.2,.78,.74,.26
+http://www.browsersync.cn/
+https://my.oschina.net/editorial-story/blog/1476483
+
+
+
+1.vue中
+如果页面是空白页面 原因1：后端返回的路径不对，与项目中的路径不相符
+可能原因2：后端数据库ip地址改变，进入持续的等待http返回过程中
+
+
+https://blog.csdn.net/u010003835/article/details/79042135

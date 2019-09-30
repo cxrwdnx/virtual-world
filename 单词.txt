@@ -1,0 +1,69 @@
+section  截面，部门，章节，地区			canvas   帆布  			Perspective   远景，透视图   	aspect ratio 宽高比
+divided by 除以		squished	压扁的		field of view    视野			clipping 裁剪
+In addition to 除...之外	intensive   加强的		resolution  分辨率			vertices 顶点
+stick  黏贴			coordinates 坐标系		precious 宝贵的			Rotate 旋转
+cluttered 集群的		caveats 警告，说明		via 取道，通过，经由			inconvenient 不便的
+Overview 综述		polyfills 填充物		Buffer 缓冲			procedural 程序上的
+textures纹理，材质		straight 直的		restrictions 限制			aware 意识到
+vulnerabilities 缺陷 弱点	regular 定期的		profile 轮廓，外形，配置文件		shortcut 捷径
+sufficient 足够的		custom n 风俗，习惯，海关； adj  定制的				corresponding 相当的，一致的
+subset 子集，团体		wireframe 线框		vertices 制高点  （vertex的复数）	consecutive 连续不断的
+geometry 几何学，几何结构	couple 对；结合；结婚	overlays 覆盖			come with 伴随...一起发生
+passive 被动的		distribution 分布，分配	tutorial 辅导的			blender 搅拌机; 掺和者; 混合物
+Stock  股份，股票; 库存; 血统; 树干; adj. 存货的，常备的; 平凡的	boring routines 无聊的例程		Inverse 相反；倒转
+assorted 组合的；各种各样的	complexity 复杂性		varying 不同的			frustration 挫折
+Transmission 传送装置；传送	asset 资产；优点		delivery 交付			compact 紧凑
+skeletons 骨骼		morph 词态；改变		domain 域名；产业；地产		individually 个别的，单独的
+Troubleshooting  解决纷争；发现并修理故障		distorted 歪曲的；受到曲解的		miscolored   颜色失真的
+shading 底纹；遮蔽		Metallic roughness金属粗糙度	Specular glossiness镜面光泽度		preserved 保藏的；腌制的
+regardless 不管；不顾	culling 选择；大批物品中剔除劣质货				orientation 方向；定向	
+circumstances 情况		viewport  视口，观察口	matrices	n. [数] 矩阵; 模型; [生物][地质] 基质; 母岩（matrix的复数）
+scaling 缩放比例		forum 论坛		Migration 迁移			Nevertheless 然而
+sphere 范围；球体		prior 优先的		uniforms 制服			dispose 处理；安排 n disposal 处理；安排
+allocate 分配；拨出		highlight 突出；强调；加亮	relevant 有关的；中肯的；有重大作用的	obsolete 废弃的；老式的
+respective 分别的；各自的	reuse 重新使用，再利用	maintains 维持；继续			Miscellaneous混杂的，各种各样的
+clarify 澄清；阐明		matter 原因		responsibility  责任，义务		quaternion 四元素；四个人一组
+obtained 获得		warped 弯曲的		homogeneous 均匀的		Clips  夹子；回形针
+predefined 预先定义的	mandatory 强制的；托管的	optimisation 最优化			optimizing 优化，最佳
+Vector 矢量；带菌者；航线	stencil 模板		projection 投射；规划；投射		mimic 模仿
+descendants 后代；晚辈	multiview 多重检视		hexadecimal 16进制			density 密度
+PixelRatio 像素比		walkthrough 预排		Forge 锻造，铸造；缔造，艰苦做成；伪造	Derivatives 派生物
+essentials 概要、精要		obtained 获得		slash 斜杠				integrate 使。。。完整 / 融合
+Extract 摘取		concepts 概念 / 思想		simultaneously 同时的		up-to-date 最新的
+composite 复合的		relevant 相关的		dedicated 专用的			demonstrates 示范 论证
+tutorial 辅导的		benefits 受益		superimpose 添加 / 叠加		semantics 语义
+encounter 遭遇		utilize 利用		paradigms 模式			interoperable 协作的
+hosting 装载		showcases 陈列		fog 雾				castshadow 投影
+Infinity 无穷大		compatibility 		introspected 检查/ 反省
+
+set up to 自以为；自命为
+
+antialias 抗锯齿，平滑；	intersection 交叉；十字路口；交集	AnimationClips 动画引擎
+crossfaded 交叉渐变
+
+inefficient for realtime experiences 缺乏实时体验    		inefficient 无效的			experiences 经验，体验
+artisanal masterpiece 手工的杰作
+command-line tool 	命令行工具
+
+
+Perhaps the most important one is that it pauses when the user navigates to another browser tab, hence not wasting their precious processing power and battery life
+或许最重要的一点是，当用户导航到另一个浏览器选项卡时，它会暂停，因此不会浪费宝贵的处理能力和电池寿命
+
+
+BMFonts (bitmap fonts) allow batching glyphs into a single BufferGeometry. BMFont rendering supports word-wrapping, letter spacing, kerning, signed distance fields with 
+standard derivatives, multi-channel signed distance fields, multi-texture fonts, and more. 
+BMFonts(位图字体)允许将字形批处理为单个缓冲几何图形。BMFont呈现支持单词包装、字母间距、角化、带标准导数的符号距离字段、多通道符号距离字段、多纹理字体等等。
+
+Stock fonts are available in projects like A-Frame Fonts, or you can create your own from any .TTF font, optimizing to include only characters required for a project.
+在像a - frame字体这样的项目中可以使用常规字体，或者您可以使用任何. ttf字体创建自己的字体，优化后只包含项目所需的字符。、
+
+this is very costly,basically the equivalent to creating a new geometry
+这是非常昂贵的，基本上相当于创建一个新的几何图形
+
+You can however update the content of buffers.
+不过，您可以更新缓冲区的内容。
+
+Dual PerspectiveCameras used for effects such as 3D Anaglyph or Parallax Barrier
+双透视摄影机用于效果，如3D浮雕或视差屏障
+
+Cloth Simulation using a relaxed constraints solver  布模拟使用一个放松的约束求解器

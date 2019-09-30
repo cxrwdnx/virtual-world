@@ -1,0 +1,88 @@
+generateDate (start, end) { // base 为时间对象 // 若果是字符串这里就需要修改				正确代码
+      var startDay = new Date(start.replace(/-/g, '/'))// 字符串转换为时间
+      var endDay = new Date(end.replace(/-/g, '/'))
+      console.log(startDay)
+      console.log(endDay)
+      var halfAnHour = 1800 * 1000
+      var date = []
+      var now
+      for (;;) {
+        if (startDay - endDay <= 0) {
+          date.push(moment(startDay).format('YYYY-MM-DD HH:mm'))
+          // 这里的startDay虽然转化为了日期，但是本质还是字符串，与数字无法加减
+          now = startDay.getTime() // 需要记录
+          startDay = new Date(now += halfAnHour)
+        } else {
+          return date
+        }
+      }
+    }
+
+
+generateDate (start, end) { // base 为时间对象 // 若果是字符串这里就需要修改				错误代码
+      var startDay = new Date(start.replace(/-/g, '/'))// 字符串转换为时间
+      var endDay = new Date(end.replace(/-/g, '/'))
+      var halfAnHour = 1800 * 1000
+      var date = []
+      for (;;) {
+        var nic = new Date()
+        var now = new Date(startDay += 0)
+        console.log(startDay += 0)
+        console.log(nic += 0)
+        if (now - endDay <= 0) {
+          date.push(moment(now).format('YYYY-MM-DD HH:mm'))
+          now = new Date(startDay += halfAnHour)
+        } else {
+          console.log(date.length)
+          return date
+        }
+      }
+    }
+
+
+generateDate (startDay, endDay) { // base 为时间对象				  正确代码
+      var halfAnHour = 1800 * 1000
+      var date = []
+      for (;;) {
+        var now = new Date(endDay -= halfAnHour)
+        if (now - startDay >= 0) {
+          date.push(moment(now).format('YYYY-MM-DD HH:mm'))
+        } else {
+          date.reverse()
+          return date
+        }
+      }
+    }
+
+
+// 点击选择构件
+window.addEventListener('click', function () { // 添加点击监听事件
+        var vector = new THREE.Vector3((event.clientX / window.innerWidth) * 2 - 1, -(event.clientY / window.innerHeight) * 2 + 1, 0.5)
+        console.log(vector)
+        vector = vector.unproject(camera)
+
+        var raycaster = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize())
+
+        var intersects = raycaster.intersectObjects(this.components)
+        console.log(this.components)
+        console.log(intersects)
+        console.log(this.selComps)
+        if (this.selComps.length > 0) {
+          this.selComps[0].object.material.transparent = false
+          this.selComps[0].object.material.opacity = 1
+          this.selComps = []
+        }
+        if (intersects.length > 0) {
+          // console.log(intersects[0]);
+          intersects[0].object.material.transparent = true
+          intersects[0].object.material.opacity = 0.5
+          this.showLog('点击' + intersects[0].object.uuid)
+          // 点击到的位置：intersects[0].point;
+          // if (this.isAddMark) {
+          // todo 对标记进行监管。
+          // viewer.sphere(intersects[0].point.x, intersects[0].point.y, intersects[0].point.z, 0xFF0000, 0.7)
+          // }
+          this.selComps.push(intersects[0])
+          this.showProperty(intersects[0].object.rid)
+        }
+      })
