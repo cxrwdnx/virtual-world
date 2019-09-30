@@ -573,7 +573,7 @@ const bananas = inventory.find((element, index, array))
 4.findIndex()  // 返回符合条件元素的下标
 
 ```vue
-cosnt bananasIndex = inventory.find((element, index, array)) 
+cosnt bananasIndex = inventory.findIndex((element, index, array)) 
 ```
 
 5.some //  某一元素的存量符合条件，返回true，false
