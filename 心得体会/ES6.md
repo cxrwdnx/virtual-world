@@ -874,3 +874,27 @@ Dog.prototype.constructor = Dog
 
 
 
+### 扩展内建对象数组
+
+```js
+p44 重新学习 没听懂
+```
+
+
+
+### 遍历器iterator
+
+```vue
+
+```
+
+
+
+### Proxy
+
+帮助我们重写对象的方法
+
+```javascript
+
+```
+
