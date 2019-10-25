@@ -2,6 +2,43 @@
 
 ## vue基础 
 
+vue.js的核心是一个允许采用简洁的模板语法来声明式地将数据渲染进DOM的系统
+
+
+
+vue中注册组件
+
+```vue
+// 定义名为 todo-item 的新组件
+Vue.component('todo-item', {
+  template: '<li>这是个待办项</li>'
+})
+```
+
+
+
+除了数据属性，Vue 实例还暴露了一些有用的实例属性与方法。它们都有前缀 `$`，以便与用户定义的属性区分开来。例如：
+
+```vue
+var data = { a: 1 }
+var vm = new Vue({  // vm是实例名
+  el: '#example',
+  data: data
+})
+
+vm.$data === data // => true
+vm.$el === document.getElementById('example') // => true
+
+// $watch 是一个实例方法
+vm.$watch('a', function (newValue, oldValue) {
+  // 这个回调将在 `vm.a` 改变后调用
+})
+```
+
+
+
+
+
 
 
 ##vuex
@@ -87,7 +124,6 @@ vm.$on( event, fn );//监听event事件后运行 fn；
   }
 </script>
  ———————————————— 
-版权声明：本文为CSDN博主「darkblueLove」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/sllailcp/article/details/78595077
 ```
 

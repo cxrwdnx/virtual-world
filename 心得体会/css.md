@@ -31,3 +31,16 @@ to {top:200px;}
 ```
 以元素起始点做大小伸缩变换
 ```
+
+
+#### box-sizing
+
+content-box  width，height为内容宽度
+
+border-box    width，height包括内边距和边框宽度
+
+
+
+```
+text-indent 
+```
