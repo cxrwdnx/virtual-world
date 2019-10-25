@@ -1,0 +1,127 @@
+任务一：
+用户管理页面的，输入框失去焦点的时候，判断用户名已经存在
+
+任务二： 
+在login和header两个组件中都使用了 ， 访问项目ip的查询 代码 ，是否可以优化
+
+任务三： 
+如果同一个浏览器开两个窗口访问项目，验证码的问题
+
+
+https://blog.csdn.net/m0_37727560/article/details/79391764  这个很关键
+
+https://segmentfault.com/a/1190000012238576?utm_source=tag-newest  // three.js入门
+
+http://www.yanhuangxueyuan.com/doc/three.js/clippingplanes.html // 郭龙邦的技术博客
+
+
+
+
+import Vue from 'vue'
+import Vue form 'vue'的意思
+import Vue form 'vue’的意思
+import Vue form ‘vue’ 写全的话是import Vue from ‘…/nodemouls/vue/list/vue.js’； 此时在webpack.base.conf.js中进行了定义，内置了一些选项，extenions:[’.js’,’.vue’,’.json’],意思是省略后面的后缀，由webpack来自动为我们加上。
+如果名字比较长，还可以起个别名。
+alias:{ ‘@’:resolve(‘src’)},
+它的意思是在vue项目中，引入路径的时候使用@即代表src文件夹，省去了…/…/…/的操作，这样写比较十分方便。
+当我们在模板中写img的时候有时也需要翻着找，那么能用@代替吗？答案是当然可以的，
+比如在assets文件夹中有张图片，logo.png。以往写可能是：
+ <img src="../../src/assets/logo.png">
+现在知道怎么回事以后可以直接这样写：
+
+ <img src="@/assets/logo.png"
+试验发现这是能成功的，但是lssue提出的方案是在@前面加上~。两者均能成功
+
+
+
+校园网密码 	220180991	wk5917731
+
+其他人的博客
+https://www.cnblogs.com/suRimn/p/10564409.html
+
+根级相应问题
+https://blog.csdn.net/sinianliushui/article/details/81774327
+
+高达一号
+https://blog.csdn.net/u010003835/article/details/98660040
+
+// element-ui 中使用echarts
+https://blog.csdn.net/izengjing/article/details/83539426
+
+https://blog.csdn.net/mineblogjw/article/details/85260223
+
+前者的博客
+https://blog.csdn.net/dkr380205984/article/details/82855841
+
+数组的拓展运算符
+https://segmentfault.com/q/1010000012469852
+
+
+修改数据库时区
+https://developer.aliyun.com/ask/136097?spm=a2c6h.13159736
+
+MYSQL数据库学习
+https://www.cnblogs.com/fangxijun/p/7702727.html
+
+高手的博客
+https://blog.csdn.net/yyx3214/article/month/2019/10
+
+
+stylus中文学习官方网站
+https://stylus.comptechs.cn
+
+一叶飘舟
+https://blog.csdn.net/jdsjlzx
+
+desaco的博客
+https://blog.csdn.net/shareus
+
+bigdecimal除法问题
+https://www.cnblogs.com/LeoBoy/p/5897754.html
+
+
+
+
+比较好的三维页面
+http://newrent.house365.com/vr/?city=nj&house_id=265838945&house_type=sell&m=zq_gkrjddyszjn_77&from=singlemessage
+
+智慧桥梁网址
+http://intellibridge.cn:8080/		
+
+传透云
+https://blog.csdn.net/zouxin_88/article/details/90439803
+
+架构文摘
+https://blog.csdn.net/uxiAD7442KMy1X86DtM3/article/details/100977415
+
+咸鱼最牛逼
+https://blog.csdn.net/panchang199266/article/details/90145677
+
+蚂蚁部落
+http://www.softwhy.com/qiduan
+
+比较学习sass和stylus的常用功能
+https://segmentfault.com/a/1190000008013566
+
+
+
+移动端遇到的问题
+https://www.cnblogs.com/ljx20180807/p/9729941.html
+
+门心叼龙
+https://blog.csdn.net/geduo_83/article/details/90760275
+
+pdf页面展示
+https://www.cnblogs.com/sixthrhapsody/p/10194491.html
+https://www.cnblogs.com/kanglinen/p/10779185.html
+
+志波同学的博客
+https://blog.csdn.net/claram
+
+js的深度拷贝
+https://blog.csdn.net/document_dom/article/details/88537629
+js的promise学习
+https://www.jianshu.com/p/2c4d9dfa99bb
+
+源码解读
+https://www.cnblogs.com/ysocean/p/8419559.html
