@@ -136,3 +136,27 @@ https://www.cnblogs.com/heyonggang/p/8638374.html
 
 webstorage存储
 https://www.cnblogs.com/cencenyue/p/7604651.html
+
+
+nginx映射
+https://www.cnblogs.com/falcon-fei/p/11060201.html
+
+
+后台运行jar包项目
+https://blog.csdn.net/chen_2890/article/details/90520517
+
+高手的博客
+https://www.cnblogs.com/knowledgesea/p/5199046.html
+
+沧海一滴
+https://www.cnblogs.com/softidea/p/5759180.html
+
+java技术栈
+https://blog.csdn.net/youanyyou/article/details/85774066
+
+郑旭的cnblog
+https://www.cnblogs.com/zhengxu/articles/9167169.html
+
+redis相关
+http://www.itcast.cn/news/20181213/14240884004.shtml
+https://www.cnblogs.com/niuben/p/10812369.html

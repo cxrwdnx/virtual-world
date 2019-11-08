@@ -13,3 +13,30 @@
 
 
 2.数据库中要区分 减号 和 破折号
+
+
+
+1.从一张表中将数据导入到另外一张表
+
+```sql
+
+第一种:
+
+create table dust select * from student;//用于复制前未创建新表dust的情况下
+
+第二种
+
+insert into dust select * from student;//已经创建了新表dust的情况下
+
+----------------------------------------------------------------------
+
+如果表结构不一样
+
+insert into 表1 (列名1,列名2,列名3) select 列1,列2,列3 from 表2
+
+不同数据库，需要在表前面加数据库前缀，database.表名。
+
+注意：以上测试过OK，sql语句不需要在insert后面加 values。
+
+```
+

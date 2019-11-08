@@ -34,8 +34,12 @@ composite 复合的		relevant 相关的		dedicated 专用的			demonstrates 示�
 tutorial 辅导的		benefits 受益		superimpose 添加 / 叠加		semantics 语义
 encounter 遭遇		utilize 利用		paradigms 模式			interoperable 协作的
 hosting 装载		showcases 陈列		fog 雾				castshadow 投影
-Infinity 无穷大		compatibility 		introspected 检查/ 反省
-
+Infinity 无穷大		compatibility 		introspected 检查/ 反省		instructions 指令，说明
+hands-on 亲自动手		customize 定制		favorite 喜欢的			scratch 刮痕，划痕
+bypass 绕开，绕道走		interactions 交互，相互作用	marshal 元帅；整理，引领		identified 被识别，被鉴定
+plenty 大量，丰富		hood 头巾，覆盖		narrow 狭窄的			demonstrated 演示
+		
+	
 set up to 自以为；自命为
 
 antialias 抗锯齿，平滑；	intersection 交叉；十字路口；交集	AnimationClips 动画引擎
