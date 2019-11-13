@@ -18,9 +18,11 @@
 
 1.mv
 
+##### 5.创建文件夹
 
+1.mkdir -p a/b/c   上级目录不存在则创建上级目录
 
-##### 5. 后台运行jar项目
+##### 6. 后台运行jar项目
 
 1. nohup java -jar demo-0.0.1-SNAPSHOT.jar > msg.log 2>&1 & --spring.profiles.active = prod
 
@@ -52,13 +54,15 @@
 
    ​
 
-8. 两个赋值linux命令 1. netstat  -antp
+8. 两个linux命令 1. netstat  -antp
 
    ​				 2.ps   -ef | grep nginx	
 
    ​
 
    root目录下不可见？？？
+
+   ​
 
 
 
@@ -71,3 +75,16 @@
    ```
 
    重启，进入系统
+
+
+
+#### 查看linux系统的时间
+
+date -R
+
+
+
+### 安装linux系统的工具
+
+##### virtual box
+

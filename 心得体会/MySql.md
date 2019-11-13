@@ -40,3 +40,36 @@ insert into 表1 (列名1,列名2,列名3) select 列1,列2,列3 from 表2
 
 ```
 
+
+
+### 数据库的时区问题
+
+```mysql
+  那我们怎么修改，有两种方法，一种是临时的，一种是长久的。
+       一：通过sql命令临时修改
+
+# 设置全局时区 
+mysql> set global time_zone = '+8:00';
+# 设置时区为东八区 
+mysql> set time_zone = '+8:00'; 
+# 刷新权限使设置立即生效 
+mysql> flush privileges; 
+mysql> show variables like '%time_zone%';
+ +------------------+--------+
+ | Variable_name | Value |
+ +------------------+--------+
+ | system_time_zone | EST |
+ | time_zone | +08:00 | 
+ +------------------+--------+
+ 2 rows in set (0.00 sec)
+         二：修改my.cnf实现永久修改
+
+vi /etc/mysql/my.cnf
+  然后在mysqld下边的配置中添加一行：
+
+default-time_zone = '+8:00'
+  然后重启mysql
+
+service mysql restart
+```
+

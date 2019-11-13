@@ -160,3 +160,18 @@ https://www.cnblogs.com/zhengxu/articles/9167169.html
 redis相关
 http://www.itcast.cn/news/20181213/14240884004.shtml
 https://www.cnblogs.com/niuben/p/10812369.html
+
+传臣
+https://blog.csdn.net/vae1314chuanchen/article/details/81838476
+
+网页logo图片
+https://www.cnblogs.com/chinabin1993/p/8509743.html
+
+canvas相关技术学习
+http://www.fly63.com/article/detial/3091
+
+pdf.js 相关采坑日记
+https://www.jianshu.com/p/9b1fe8cb9795
+
+何许人  js跟踪源码
+https://www.cnblogs.com/KingJames/p/11763590.html
