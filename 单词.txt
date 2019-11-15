@@ -38,7 +38,8 @@ Infinity 无穷大		compatibility 		introspected 检查/ 反省		instructions �
 hands-on 亲自动手		customize 定制		favorite 喜欢的			scratch 刮痕，划痕
 bypass 绕开，绕道走		interactions 交互，相互作用	marshal 元帅；整理，引领		identified 被识别，被鉴定
 plenty 大量，丰富		hood 头巾，覆盖		narrow 狭窄的			demonstrated 演示
-		
+depricated 不赞成，弃用	
+	
 	
 set up to 自以为；自命为
 
