@@ -24,7 +24,8 @@
 
 ##### 6. 后台运行jar项目
 
-1. nohup java -jar demo-0.0.1-SNAPSHOT.jar > msg.log 2>&1 & --spring.profiles.active = prod
+1. nohup java -jar -Dspring.profiles.active=prod demo-0.0.1-SNAPSHOT.jar>msg.log 2>&1 & 
+2. nohup java --spring.profiles.active=prod  -jar demo-0.0.1-SNAPSHOT.jar>msg.log 2>&1 & 
 
 
 

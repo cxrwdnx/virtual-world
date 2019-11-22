@@ -22,6 +22,15 @@ request.resolve('./store.svg') 调用这个函数
 new date().toLocaleString()
 ```
 
+```javascript
+1. 计算方法运行时间
+    console.time('global')
+    this.init(this.controlParam) // 初始化三维图像
+    console.timeEnd('global')
+```
+
+
+
 
 
 ### 深度拷贝
@@ -29,4 +38,8 @@ new date().toLocaleString()
 ```javascript
 https://blog.csdn.net/document_dom/article/details/88537629
 ```
+
+
+
+
 
