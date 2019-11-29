@@ -78,4 +78,4 @@ yarn init -y    初始化
 
 #### HTML 插件
 
-yarn add webpack-dev-sever
+yarn add webpack-dev-sever    开发依赖，静态服务，内置express

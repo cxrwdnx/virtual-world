@@ -197,115 +197,39 @@ https://www.cnblogs.com/Leo_wl/archive/2013/01/24/2874528.html
 ObjLoader加载及渲染分析
 https://www.jianshu.com/p/f8747b905393
 
+智能化IT系统
+https://www.cnblogs.com/xtary/p/9528023.html
+
+安装redis
+https://blog.csdn.net/qq_34785454/article/details/87183088
+
+幸福、如此
+https://blog.csdn.net/m0_37886429/category_6826050_2.html
+
+dockerfile的制作
+https://blog.csdn.net/jacksonary/article/details/78961612
+
+人工智能
+http://www.captainbed.net
+
+redis相关使用
+https://www.cnblogs.com/moyhui/p/8421069.html
+
+Linux中如何查看进程和控制进程
+https://blog.csdn.net/weixin_44907813/article/details/90442886
+
+redis中的安装操作
+https://www.cnblogs.com/zhzhlong/p/9465670.html
+
+安装redis中遇到的问题
+chown: changing ownership of '.': Permission denied
+https://blog.csdn.net/kq1983/article/details/90340303    
+
+持续集成
+https://www.cnblogs.com/walls/p/9086177.html
+
+腾讯文档
+https://cloud.tencent.com/document/product/214/2737
+
  // 加载obj成功的回调函数
                 // objLoader._reportProgress({detail: { text: 'Loading: ' + modelName }})
-
-                
-object.position.y = 0
-                  object.rotation.y = 0 // 绕着y轴旋转 弧度制
-                  object.scale.set(modelScaleFactor, modelScaleFactor, modelScaleFactor) // 缩放比率
-                  // 每个储位单独赋予一个基础材质, 每个object就代表一个group
-                  object.children.forEach((child) => {
-                    let name = child.name
-                    if (name.split(' ')[1] === '地面') {
-                      let normalGeometry = new THREE.Geometry().fromBufferGeometry(child.geometry)
-                      let minX = 0
-                      let minZ = 0
-                      let maxX = 0
-                      let maxZ = 0
-                      normalGeometry.vertices.forEach((vertice) => {
-                        if (vertice.x < minX) {
-                          minX = vertice.x
-                        }
-                        if (vertice.x > maxX) {
-                          maxX = vertice.x
-                        }
-                        if (vertice.z < minX) {
-                          minZ = vertice.z
-                        }
-                        if (vertice.z > maxX) {
-                          maxZ = vertice.z
-                        }
-                      })
-                      that.threeDParam.modelCenter = {x: ((minX + maxX) / 2), z: ((minZ + maxZ) / 2)}
-                      that.threeDParam.camera.lookAt(that.threeDParam.modelCenter.x, 0, that.threeDParam.modelCenter.z)
-                    }
-                    if (child instanceof THREE.Mesh) { // 判断对象是否是mesh
-                      // 遍历obj数据
-                      Object.values(material).forEach((mtl) => {
-                        // 这里需要判断mtl属性是否是单一mesh，有可能是组合mesh
-                        if (child.material instanceof THREE.Material) { // 单一mesh
-                          if (child.material.uuid === mtl.uuid) {
-                            // 剪切示例动画
-                            if (child.name === 'Mesh1 II-1/公寓-1') {
-                              child.material = new THREE.MeshPhongMaterial({
-                                color: mtl.color,
-                                side: THREE.DoubleSide,
-                                // 对象引用的好处
-                                clippingPlanes: [localPlane], // 这里不是数据响应式的
-                                shininess: 0
-                              })
-                              child.add(that.threeDParam.labelGroup[0])
-                            } else {
-                              child.material = new THREE.MeshPhongMaterial({
-                                color: mtl.color,
-                                side: THREE.DoubleSide,
-                                shininess: 0
-                              })
-                            }
-                          }
-                        } else { // 组合mesh, 基本不用
-                          child.material.forEach((mesh) => {
-                            if (mesh.uuid === mtl.uuid) {
-                              // THREE.DoubleSide 意思是指三维页面任何一个group的两面都显示
-                              mesh.material = new THREE.MeshPhongMaterial({color: mtl.color, side: THREE.DoubleSide})
-                            }
-                          })
-                        }
-                      })
-                    }
-                  })
-                  scene.children.unshift(object)
-                  that.threeDParam.group = object
-
-                  meshArr = object.children
-                  /* 下面与三维模型无关，主要给table加载用 */
-                  const categoryArr = [] // 创建一个类数组, 主要用于存储构件
-                  const recordNameArr = [] // 创建一个名字记录数组
-                  meshArr.forEach((mesh) => {
-                    let name = mesh.name
-                    let markName = name.substring(0, name.indexOf(' '))
-                    let strArr = name.split('/')
-                    let showName // 显示名字
-                    let categoryName // 种类名称
-                    if (strArr.length === 1) {
-                      showName = strArr[0].split(' ')[1]
-                      categoryName = strArr[0].split(' ')[1]
-                    } else {
-                      showName = strArr[1]
-                      categoryName = strArr[0].substr(strArr[0].indexOf(' ') + 1, strArr[0].length)
-                    }
-                    // showName: 显示名称  mesh: 网格  markName: 标识名字 meshName
-                    let child = {id: mesh.id, showName: showName, mesh: mesh, markName: markName}
-                    let category = {id: that.guid(), showName: categoryName, children: []} // 这个children要设置成单独的元素名，非常棒
-                    if (categoryArr.length === 0) {
-                      category.children.push(child)
-                      categoryArr.push(category)
-                      recordNameArr.push(categoryName)
-                    } else {
-                      let a = 0 // 记录变量
-                      categoryArr.forEach((value) => {
-                        if (categoryName === value.showName) { // 数组循环时 不能改变其内部结构
-                          value.children.push(child)
-                          a++
-                        }
-                      })
-                      if (a === 0) {
-                        category.children.push(child)
-                        categoryArr.push(category)
-                        recordNameArr.push(categoryName)
-                      }
-                    }
-                  })
-                  // 为什么这个最后
-                  that.group.component = categoryArr
