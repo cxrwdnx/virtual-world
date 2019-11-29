@@ -225,11 +225,5 @@ https://www.cnblogs.com/zhzhlong/p/9465670.html
 chown: changing ownership of '.': Permission denied
 https://blog.csdn.net/kq1983/article/details/90340303    
 
-持续集成
-https://www.cnblogs.com/walls/p/9086177.html
-
-腾讯文档
-https://cloud.tencent.com/document/product/214/2737
-
  // 加载obj成功的回调函数
                 // objLoader._reportProgress({detail: { text: 'Loading: ' + modelName }})
