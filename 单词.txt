@@ -40,7 +40,11 @@ bypass 绕开，绕道走		interactions 交互，相互作用	marshal 元帅；�
 plenty 大量，丰富		hood 头巾，覆盖		narrow 狭窄的			demonstrated 演示
 depricated 不赞成，弃用	yielded 产生，屈服		Manipulator 操纵器			extract 提取
 debounce防反跳		istanbul伊斯坦布尔		retained 保留的			transferred 转换
-
+Ultimate 旗舰版		lbrace 大括号		colon 冒号				programmatically 以编程方式		
+point at 指向		nesting 嵌套		drawback 缺点			modals 情态的，情势的	
+flipped快速翻动		upside-down 颠倒的		claims 要求，请求			predefined 预先定义	
+mandatory 强制的，强制的计划	interoperable 彼此协作的	audience观众			compact合同，契约
+scroll 花卷，滚动		mutating变异
 	
 	
 set up to 自以为；自命为

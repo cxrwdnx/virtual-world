@@ -225,5 +225,17 @@ https://www.cnblogs.com/zhzhlong/p/9465670.html
 chown: changing ownership of '.': Permission denied
 https://blog.csdn.net/kq1983/article/details/90340303    
 
- // 加载obj成功的回调函数
+模型加载问题
+https://blog.csdn.net/qq_37540004/article/details/102862348
+
+智慧城市项目
+https://blog.csdn.net/qq_37540004/article/details/102862348
+
+element-ui样式修改问题
+https://www.cnblogs.com/chenguangliang/p/11323490.html
+
+ajax跨域访问和 nginx反向代理配置
+https://blog.csdn.net/qq_35437791/article/details/97271373
+
+// 加载obj成功的回调函数
                 // objLoader._reportProgress({detail: { text: 'Loading: ' + modelName }})
