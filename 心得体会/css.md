@@ -42,5 +42,19 @@ border-box    width，height包括内边距和边框宽度
 
 
 ```
-text-indent 
+text-indent 缩进
 ```
+
+
+
+心得： block布局
+
+​	    同级元素， 上下左右margin会重合， 不通的margin会以多的为准
+
+​	    子级元素会超出父级元素的宽度，影响父级同级元素的定位
+
+
+
+​	   inline-block 布局
+
+​	    margin 不会重合 

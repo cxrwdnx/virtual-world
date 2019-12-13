@@ -111,9 +111,23 @@ function clearCanvas(){
 
 2. 使用clearRect方法：
 
-	function clearCanvas() {
-	var c=document.getElementById("myCanvas");
-	var cxt=c.getContext("2d");
-	cxt.clearRect(0,0,c.width,c.height);
-	}
+  function clearCanvas() {
+  var c=document.getElementById("myCanvas");
+  var cxt=c.getContext("2d");
+  cxt.clearRect(0,0,c.width,c.height);
+  }
+
+
+### input相关内容
+
+```html
+@keyup.native="validateId" 	
+
+let keynum = window.event ? event.keyCode : event.which // 获取键盘码
+      // let keychar = String.fromCharCode(keynum) // 获取键盘吗对应的字符
+      if (keynum === 189 || keynum === 190 || keynum === 110 || keynum === 109) {
+        this.$message.warning('禁止输入小数及负数')
+        event.target.value = ''
+      }
+```
 

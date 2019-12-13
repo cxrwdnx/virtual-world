@@ -161,3 +161,13 @@ vm.$on( event, fn );//监听event事件后运行 fn；
 
 
 
+路由和组件的常用两种懒加载方式：
+
+1、**vue异步组件实现路由懒加载**
+
+　　component：resolve=>(['需要加载的路由的地址'，resolve])
+
+2、**es提出的import(推荐使用这种方式)**
+
+　　**const HelloWorld = （）=>import('需要加载的模块地址')**
+

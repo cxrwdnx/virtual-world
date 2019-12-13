@@ -61,3 +61,13 @@ https://blog.csdn.net/document_dom/article/details/88537629
 
 #### 内存释放
 
+
+
+### 事件移除
+
+removeEventListener() 方法用于移除由 [addEventListener()](https://www.runoob.com/jsref/met-element-addeventlistener.html) 方法添加的事件句柄。
+
+**注意：** 如果要移除事件句柄，addEventListener() 的执行函数必须使用外部函数，如上实例所示 (myFunction)。
+
+匿名函数，类似 "document.removeEventListener("*event*", function(){ *myScript* });" 该事件是无法移除的。
+

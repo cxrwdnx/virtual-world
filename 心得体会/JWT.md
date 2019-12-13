@@ -1,6 +1,6 @@
 # JWT
 
-JSON Web Token（JWT）是目前最流行的跨域身份验证解决方案。虫虫今天给大家介绍JWT的原理和用法。
+JSON Web Token（JWT）是目前最流行的跨域身份验证解决方案。
 
 
 

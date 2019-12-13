@@ -64,7 +64,7 @@ fs.writeFile('./data/你好.md', 'hello world')， function（error）{
 
 // 成功： data：数据      error： null
 // 失败： data：undefined 没有数据， error 错误对象
-fs.readFile('./data/a.txt', function(error, data) {})
+fs.readFile('./data/a.txt', function(error, data) {}) // 
 ```
 
 
@@ -135,4 +135,5 @@ http协议
 // url: 统一资源定位符   一个url 最终其实是需要对应到一个资源的
 res.setHeader('Content-Type','text/plain ;charset=utf-8')
 ```
+
 

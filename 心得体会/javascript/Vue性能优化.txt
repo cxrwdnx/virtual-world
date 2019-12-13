@@ -1,0 +1,27 @@
+Vue性能优化九法
+	函数型组件
+	子组件拆分
+	局部变量
+	活用v-show， 减少v-if
+	使用keep-alive
+	活用延迟装载（Defer）
+	分批处理（Time slicing）
+	非响应模式（non - reactive）
+	仅渲染可视化部分
+
+
+v-show 不改变dom树里面的内容   v-if 则改变dom树里面的内容
+
+
+vue学习视频
+https://www.vuemastery.com/
+
+2019年vue开发者大会
+演讲视频
+       https://www.youtube.com/watch?v=5B66qer8cZo
+演讲稿
+       https://slides.com/akryum/vueconfus-2019#/
+演示网站
+       https://vue-9-perf-secrets.netlify.com
+演示文稿
+       https://github.com/Akryum/vue-9-perf-secrets
