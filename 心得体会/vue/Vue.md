@@ -202,3 +202,27 @@ v-show 只是隐藏了节点的显示，但是节点还在，其绑定的事件�
 ## v-for
 
 在 `v-for` 块中，我们可以访问所有父作用域的属性
+
+
+
+
+
+## 创建一个vue项目
+
+* 安装npm
+  * npm全程为Node Package Manager， 是一个基于Node.js的包管理器，也是整个Node.js社区最流行，支持的第三方模块最多的包管理器
+  * npm -v
+
+
+* 由于网络原因  安装cnpm
+  * npm install -g cnpm --registry=https://registry.npm.taobao.org 
+* 安装vue-cli
+  * cnpm install -g @vue/cli
+* 安装webpack
+  * cnpm install -g webpack
+  * webpack 是JavaScript打包器（module bundler）
+
+
+
+
+
