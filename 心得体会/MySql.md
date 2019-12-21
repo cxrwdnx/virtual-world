@@ -73,3 +73,34 @@ default-time_zone = '+8:00'
 service mysql restart
 ```
 
+
+
+### 数据库添加字段
+
+- 执行ddl语句之前一定要万分小心
+- 在执行ddl语句前有必要备份表和数据
+
+```JS
+总结
+1. 查看所有表
+    show tables; 
+2. 增加字段
+    alter table 表名 add 列名  
+3. 修改字段 
+    alter table 表名 modify 列名  
+4. 删除字段
+    alter table 表名 drop 列名
+    
+增加字段
+语法：alter table student add name varchar(64) not null;
+为student表增加name字段
+
+删除字段
+语法：alter table student drop name;
+删除student表name字段
+
+修改字段
+语法：alter table student modify name varchar(100) not null;
+修改student表name字段长度为100
+```
+

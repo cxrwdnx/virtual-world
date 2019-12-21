@@ -19,7 +19,7 @@ request.resolve('./store.svg') 调用这个函数
 ### 时间
 
 ```javascript
-new date().toLocaleString()
+new date().toLocaleString() 
 ```
 
 ```javascript
