@@ -46,8 +46,10 @@ flipped快速翻动		upside-down 颠倒的		claims 要求，请求			predefined 
 mandatory 强制的，强制的计划	interoperable 彼此协作的	audience观众			compact合同，契约
 scroll 花卷，滚动		mutating变异		Infinity 无限大			compatible 兼容的
 variations 变量		avatar 形象符号		shallow 浅 			retained  保留的
-preserve保存		bladestone 博客专家
-	
+preserve保存		traverse 穿过，横穿		convenience便利			subset[数]子集；小团体
+consideration 考虑		workaround 工作区		frequently 频繁的			onward向前
+arbitrary 任意的，武断的	inconsistent 不一致的	ordinal 顺序
+		
 	
 set up to 自以为；自命为
 
